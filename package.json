@@ -1,0 +1,21 @@
+{
+  "name": "net.iriesoft.samples.html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "range-slider": "parcel serve -d ./dist/range-slider/ ./src/range-slider/index.html ./src/forms/survey-form/app.ts --port=1201",
+    "vue-inside-angularjs": "parcel serve -d ./dist/vue-inside-angularjs/ ./src/vue-inside-angularjs/index.html --port=1202"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.11.6",
+    "angular": "1.8.0",
+    "bootstrap": "^4.5.2",
+    "ngVue": "^1.7.8",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2"
+  }
+}
